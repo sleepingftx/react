@@ -13,3 +13,5 @@
 </ul>
 
 <code class="javascript hljs">npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader webpack webpack-cli style-loader webpack-dev-server</code>
+
+<code class="javascript hljs">npm install --save-dev typescript ts-loader</code>

@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import s from "./app.component.css";
 
 function MyComponent() {
-  const [name, setState] = useState("anshul GoYAL");
+  const [name, setState] = useState("Начало");
   const handleCahnge = useCallback(e => setState(e.target.value));
   return (
     <>

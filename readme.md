@@ -7,12 +7,11 @@
 <li>babel-loader — настройка Webpack для работы с Babel.</li>
 <li>css-loader — настройка Webpack для работы с CSS.</li>
 <li>ts-loader — настройка Webpack для работы с ts.</li>
+<li>tipescript — ts для creat-react-app.</li>
 <li>webpack — сборка модулей.</li>
 <li>webpack-cli — работа с Webpack из командной строки.</li>
 <li>style-loader — загрузка всего используемого CSS-кода в заголовке HTML-файла.</li>
 <li>webpack-dev-server — настройка сервера разработки.</li>
 </ul>
 
-<code class="javascript hljs">npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader webpack webpack-cli style-loader webpack-dev-server</code>
-
-<code class="javascript hljs">npm install --save-dev typescript ts-loader</code>
+<code class="javascript hljs">npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader webpack webpack-cli style-loader webpack-dev-server typescript ts-loader</code>

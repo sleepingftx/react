@@ -6,6 +6,7 @@
 <li><a href="https://habr.com/ru/users/babel/" class="user_link">babel</a>/preset-react — настройка транспилятора для работы с React-кодом.</li>
 <li>babel-loader — настройка Webpack для работы с Babel.</li>
 <li>css-loader — настройка Webpack для работы с CSS.</li>
+<li>ts-loader — настройка Webpack для работы с ts.</li>
 <li>webpack — сборка модулей.</li>
 <li>webpack-cli — работа с Webpack из командной строки.</li>
 <li>style-loader — загрузка всего используемого CSS-кода в заголовке HTML-файла.</li>

@@ -2,8 +2,12 @@
 import * as React from 'react';
 //import ReactDOM from 'react-dom';
 import * as ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import itemsReducer from './reducers/itemsReducer';
 import App from './App';
 
+const store = createStore(itemsReducer);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -11,3 +15,9 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 //serviceWorker.unregister();
+
+
+
+
+
+
